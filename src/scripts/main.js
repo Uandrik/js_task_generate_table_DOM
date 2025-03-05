@@ -354,8 +354,6 @@ const people = [
   },
 ];
 
-// eslint-disable-next-line no-console
-// you can remove it
 const table = document.querySelector('.dashboard');
 
 people.forEach((person) => {
