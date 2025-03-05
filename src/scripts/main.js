@@ -374,6 +374,5 @@ people.forEach((person) => {
   tableRow.insertAdjacentHTML('beforeend', `<td>${person.died}</td>`);
   tableRow.insertAdjacentHTML('beforeend', `<td>${age}</td>`);
   tableRow.insertAdjacentHTML('beforeend', `<td>${century}</td>`);
-
   table.append(tableRow);
 });
